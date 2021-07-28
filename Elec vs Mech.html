@@ -1,0 +1,1369 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Clash Report</title>
+<style>
+          body,table {
+          font-family: Calibri, Tahoma, Verdana, Arial, sans-serif;
+          }
+
+          softBreak{
+          mso-data-placement: same-cell;
+          }
+
+          tr.headerRow{
+          font-weight: bold;
+          }
+
+          table.titleTable tr.headerRow{
+          height: 75px;
+          }
+
+          table.titleTable td.headerCell{
+          font-size: 18pt;
+          vertical-align: middle;
+          }
+
+          table.titleTable td.logoCell{
+          padding: 5px 0px 0px 0px;
+          width: 180px;
+          vertical-align: middle;
+          }
+
+          table.testSummaryTable{
+          border: 3px solid black;
+          text-align: center;
+          background-color: #eeeeee;
+          border-collapse: collapse;
+          }
+
+          table.testSummaryTable tr.headerRow{
+          background: #eeeeee;
+          }
+
+          table.testSummaryTable td{
+          border-width: 1px;
+          border-style: solid;
+          border-color: #666666;
+          }
+
+          table.testSummaryTable td.testName{
+          font-size: 16pt;
+          font-weight: bold;
+          vertical-align: middle;
+          text-align: center;
+          }
+
+          table.mainTable{
+          border-collapse: collapse;
+          }
+
+          table.mainTable tr.contentRow{
+          height: 100px;
+          }
+
+          table.mainTable tr.childRow{
+          height: 100px;
+          }
+
+          table.mainTable tr.childRowLast{
+          height: 100px;
+          }
+
+          table.mainTable tr.clashGroupRow{
+          height: 100px;
+          font-weight: bold;
+          }
+
+          table.mainTable td{
+          vertical-align: middle;
+          border: 1px solid #999999;
+          }
+
+          table.mainTable td.mergedCellHeader{
+          text-align:center;
+          }
+
+          table.mainTable tr.clashGroupRow td{
+          font-weight: bold;
+          border-top: 5px solid #333333;
+          }
+
+          table.mainTable tr.childRow td, table.mainTable tr.childRowLast td{
+          color: #707070;
+          }
+
+          table.mainTable tr.childRow td.contentCell, table.mainTable tr.childRowLast td.contentCell{
+          background-color: #ffffee;
+          }
+
+          table.mainTable tr.childRowLast td{
+          border-bottom: 5px solid #333333;
+          }
+
+          table.mainTable td.clashGroupCell{
+          background: #ffff99;
+          }
+
+          table.mainTable td.item1HeaderGroup{
+          background-color: #99ccff;
+          text-align: center;
+          }
+
+          table.mainTable td.item2HeaderGroup{
+          background-color: #ffcccc;
+          text-align: center;
+          }
+
+          table.mainTable td.item1Header{
+          background-color: #99ccff;
+          }
+
+
+          table.mainTable td.item2Header{
+          background-color: #ffcccc;
+          }
+
+          table.mainTable td.generalHeader{
+          background-color: #eeeeee;
+          }
+
+
+          table.mainTable td.item1Content{
+          background-color: #ddeeff;
+          }
+
+          table.mainTable td.item2Content{
+          background-color: #ffeeee;
+          }
+
+          table.mainTable tr.clashGroupRow td.item1Content{
+          background-color: #bbddff;
+          }
+
+          table.mainTable tr.clashGroupRow td.item2Content{
+          background-color: #ffdddd;
+          }
+
+
+          span.hiddenText{
+          color: white;
+          height: 1px;
+          font-size: 5pt;
+          }
+        </style>
+</head>
+<body>
+<table class="titleTable">
+<tr class="headerRow">
+<td class="logoCell" colspan="3"><img alt="logo" src="Elec vs Mech_files\logo.jpg"></td>
+<td class="headerCell" colspan="50">
+              Clash Report<br></td>
+<tr>
+<td></td>
+</tr>
+</tr>
+</table><br><table class="testSummaryTable">
+<tr class="headerRow">
+<td rowspan="2" colspan="2" class="testName">Elec vs Mech</td>
+<td class="headerCell">Tolerance</td>
+<td class="headerCell">Clashes</td>
+<td class="headerCell">New</td>
+<td class="headerCell">Active</td>
+<td class="headerCell">Reviewed</td>
+<td class="headerCell">Approved</td>
+<td class="headerCell">Resolved</td>
+<td class="headerCell">Type</td>
+<td class="headerCell">Status</td>
+</tr>
+<tr class="contentRow">
+<td class="contentCell">0.004m</td>
+<td class="contentCell">48</td>
+<td class="contentCell">48</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">OK</td>
+</tr>
+</table><br><table class="mainTable">
+<tr class="headerRow">
+<td colspan="12" class="generalHeader"></td>
+<td colspan="4" class="item1HeaderGroup">Item 1</td>
+<td colspan="4" class="item2HeaderGroup">Item 2</td>
+</tr>
+<tr class="headerRow">
+<td colspan="2" class="generalHeader">Image</td>
+<td colspan="2" class="generalHeader">Clash Name</td>
+<td class="generalHeader">Status</td>
+<td class="generalHeader">Distance</td>
+<td class="generalHeader">Grid Location</td>
+<td class="generalHeader">Description</td>
+<td class="generalHeader">Date Found</td>
+<td colspan="3" class="generalHeader">Clash Point</td>
+<td class="item1Header">Item ID</td>
+<td class="item1Header">Layer</td>
+<td class="item1Header">Item Name</td>
+<td class="item1Header">Item Type</td>
+<td class="item2Header">Item ID</td>
+<td class="item2Header">Layer</td>
+<td class="item2Header">Item Name</td>
+<td class="item2Header">Item Type</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040001.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040001.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash1</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.080</td>
+<td class="contentCell">B-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:21.700,
+          y:6.092,
+          z:3.000</td>
+<td class="item1Content"><i>Element ID</i>:
+            903179</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">0600x1200mm(2 Lamp) - 120V</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            969173</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040002.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040002.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash2</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.080</td>
+<td class="contentCell">C-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:24.843,
+          y:-3.158,
+          z:3.096</td>
+<td class="item1Content"><i>Element ID</i>:
+            903451</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">0600x0600mm(2 Lamp) - 277V</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973032</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040003.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040003.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash3</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.079</td>
+<td class="contentCell">C-7 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:30.243,
+          y:-3.300,
+          z:3.000</td>
+<td class="item1Content"><i>Element ID</i>:
+            903240</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">0600x0600mm(2 Lamp) - 277V</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973029</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040004.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040004.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash4</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.072</td>
+<td class="contentCell">C-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:21.843,
+          y:-3.266,
+          z:3.023</td>
+<td class="item1Content"><i>Element ID</i>:
+            903475</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">0600x0600mm(2 Lamp) - 277V</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973033</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040005.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040005.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash5</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.059</td>
+<td class="contentCell">B-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:24.868,
+          y:5.798,
+          z:3.067</td>
+<td class="item1Content"><i>Element ID</i>:
+            903155</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">0600x1200mm(2 Lamp) - 120V</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            969168</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040006.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040006.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash6</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.059</td>
+<td class="contentCell">B-7 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:30.268,
+          y:5.798,
+          z:3.067</td>
+<td class="item1Content"><i>Element ID</i>:
+            902129</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">0600x1200mm(2 Lamp) - 120V</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            969151</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040007.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040007.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash7</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.052</td>
+<td class="contentCell">C-7 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:30.564,
+          y:-3.158,
+          z:3.024</td>
+<td class="item1Content"><i>Element ID</i>:
+            827928</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Ceiling Tile 600 x 600</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973029</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040008.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040008.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash8</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.052</td>
+<td class="contentCell">C-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:25.279,
+          y:-3.158,
+          z:3.014</td>
+<td class="item1Content"><i>Element ID</i>:
+            827928</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Ceiling Tile 600 x 600</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973032</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040009.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040009.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash9</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.052</td>
+<td class="contentCell">B-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:21.716,
+          y:6.092,
+          z:3.011</td>
+<td class="item1Content"><i>Element ID</i>:
+            826711</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Ceiling Tile 600 x 600</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            969173</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040010.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040010.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash10</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.052</td>
+<td class="contentCell">B-7 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:30.243,
+          y:5.724,
+          z:3.016</td>
+<td class="item1Content"><i>Element ID</i>:
+            826711</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Ceiling Tile 600 x 600</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            969151</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040011.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040011.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash11</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.052</td>
+<td class="contentCell">B-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:24.843,
+          y:5.724,
+          z:3.016</td>
+<td class="item1Content"><i>Element ID</i>:
+            826711</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Ceiling Tile 600 x 600</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            969168</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040012.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040012.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash12</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">D-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:24.930,
+          y:-7.577,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            827928</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973031</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040013.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040013.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash13</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">D-7 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:30.243,
+          y:-7.577,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            827928</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973030</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040014.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040014.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash14</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:22.010,
+          y:-2.777,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            827928</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973033</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040015.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040015.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash15</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">D-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:22.218,
+          y:-7.577,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            827928</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973034</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040016.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040016.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash16</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-7 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:27.863,
+          y:-3.158,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            827928</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973077</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040017.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040017.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash17</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-7 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:30.243,
+          y:1.423,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826711</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            969156</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040018.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040018.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash18</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">B-7 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:27.618,
+          y:6.223,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826711</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            972650</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040019.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040019.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash19</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">B-3 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:-0.006,
+          y:3.923,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            974807</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040020.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040020.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash20</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">B-4 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:6.425,
+          y:3.923,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            976402</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040021.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040021.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash21</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">B-4 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:3.691,
+          y:3.923,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            974833</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040022.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040022.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash22</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-3 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:-0.309,
+          y:-4.197,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            974855</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040023.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040023.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash23</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-4 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:3.230,
+          y:-2.846,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            979374</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040024.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040024.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash24</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-3 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:-0.309,
+          y:-2.400,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            977122</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040025.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040025.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash25</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-3 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:-0.326,
+          y:0.903,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            974814</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040026.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040026.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash26</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-4 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:3.537,
+          y:-0.070,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            974821</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040027.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040027.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash27</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:9.291,
+          y:0.207,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            975360</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040028.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040028.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash28</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-4 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:6.425,
+          y:0.223,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            976418</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040029.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040029.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash29</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-4 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:3.691,
+          y:-4.197,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            974865</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040030.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040030.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash30</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:24.930,
+          y:1.423,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826711</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            969161</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040031.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040031.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash31</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">B-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:17.980,
+          y:6.885,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826711</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            969192</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040032.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040032.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash32</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:18.070,
+          y:-2.562,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            827928</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973035</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040033.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040033.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash33</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">D-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:11.930,
+          y:-6.576,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826193</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973144</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040034.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040034.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash34</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">D-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:13.691,
+          y:-9.042,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826193</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973161</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040035.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040035.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash35</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">D-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:15.235,
+          y:-6.576,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826193</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973149</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040036.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040036.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash36</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:15.235,
+          y:-3.777,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826193</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973139</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040037.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040037.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash37</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:11.930,
+          y:-3.777,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826193</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973134</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040038.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040038.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash38</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:11.777,
+          y:-1.076,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826193</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973127</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040039.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040039.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash39</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:15.082,
+          y:-0.871,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826193</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973120</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040040.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040040.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash40</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">B-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:9.291,
+          y:3.923,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            974838</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040041.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040041.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash41</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:12.470,
+          y:3.477,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            829136</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            975370</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040042.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040042.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash42</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-7 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:27.570,
+          y:1.423,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826711</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            972659</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040043.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040043.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash43</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:21.843,
+          y:0.977,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826711</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            969180</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040044.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040044.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash44</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">C-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:17.930,
+          y:0.223,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            826711</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            969204</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040045.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040045.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash45</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">D-7 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:27.570,
+          y:-7.577,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            827928</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973078</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040046.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040046.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash46</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.050</td>
+<td class="contentCell">D-5 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:17.930,
+          y:-8.777,
+          z:3.052</td>
+<td class="item1Content"><i>Element ID</i>:
+            827928</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">Default</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            973036</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">600 x 600 Face 300 x 300 Connection</td>
+<td class="item2Content">Solid</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040047.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040047.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash47</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.023</td>
+<td class="contentCell">B-7 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:30.243,
+          y:6.092,
+          z:3.102</td>
+<td class="item1Content"><i>Element ID</i>:
+            902129</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">0600x1200mm(2 Lamp) - 120V</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            972287</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">Rectangular Duct</td>
+<td class="item2Content">Line</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="Elec vs Mech_files\cd040048.jpg "><img border="0" width="95" height="95" src="Elec vs Mech_files\cd040048.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash48</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-0.023</td>
+<td class="contentCell">B-6 : 1st Storey</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2021/7/28 
+      07:59</td>
+<td colspan="3" class="contentCell">
+          x:24.850,
+          y:6.092,
+          z:3.102</td>
+<td class="item1Content"><i>Element ID</i>:
+            903155</td>
+<td class="item1Content">1st Storey</td>
+<td class="item1Content">0600x1200mm(2 Lamp) - 120V</td>
+<td class="item1Content">Solid</td>
+<td class="item2Content"><i>Element ID</i>:
+            972061</td>
+<td class="item2Content">1st story plenum</td>
+<td class="item2Content">Rectangular Duct</td>
+<td class="item2Content">Line</td>
+</tr>
+</table>
+<hr><br></body>
+</html>
